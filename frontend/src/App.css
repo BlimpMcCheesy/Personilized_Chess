@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 15px 30px; /* Increased padding to make header thicker */
+  background-color: #007bff;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.app-nav a {
+  color: #fff; /* White text for links */
+  text-decoration: none;
+  padding: 8px 20px; /* More padding for button-like appearance */
+  margin: 0 10px;
+  font-weight: bold; /* Bold text */
+  border: 1px solid #fff; /* White outline */
+  border-radius: 5px; /* Slightly rounded corners */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.app-nav a:hover {
+  background-color: #fff; /* White background on hover */
+  color: #007bff; /* Blue text on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+}
+
+.login-button {
+  position: absolute; /* Position relative to the nav bar */
+  right: 30px; /* Align to the right with padding */
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #fff; /* White background on hover */
+  color: #007bff; /* Blue text on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+.home-container {
+  text-align: center;
+  padding: 60px 20px; /* More vertical padding */
+  background-color: #000; /* Ensure black background for consistency */
+  min-height: calc(100vh - 60px); /* Adjust based on nav height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* White text for homepage content */
+}
+
+.home-header h1 {
+  color: #fff; /* White color for header text */
+  font-size: 3em; /* Larger font for emphasis */
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle text shadow */
+}
+
+.home-header p {
+  color: #ccc; /* Lighter white for paragraph text */
+  font-size: 1.3em; /* Slightly larger paragraph font */
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+.home-actions {
+  display: flex;
+  gap: 40px; /* More space between action buttons */
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.action-button {
+  background-color: #1a1a1a; /* Darker background for action buttons */
+  color: #fff; /* White text */
+  text-decoration: none;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* More prominent shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  width: 350px; /* Slightly larger width for buttons */
+  text-align: center;
+  border: 1px solid #444; /* Subtle border */
+}
+
+.action-button:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  background-color: #2a2a2a; /* Slightly lighter dark on hover */
+}
+
+.action-button h2 {
+  margin-top: 0;
+  font-size: 2.2em;
+  color: #007bff; /* Blue color for button titles */
+  margin-bottom: 15px;
+}
+
+.action-button p {
+  font-size: 1.1em;
+  color: #bbb; /* Lighter white for button descriptions */
+}
+
+.app-content {
+  padding: 20px;
+}
